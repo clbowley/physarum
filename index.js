@@ -18,17 +18,17 @@ function main({ pane, glslVersion, contextID }) {
 	const PARAMS = {
 		decayFactor: 0.9,
 		depositAmount: 4,
-		particleDensity: 0.35,
+		particleDensity: 0.10,
 		sensorDistance: 18, 
 		sensorAngle: 5.5,
-		stepSize: 2,
+		stepSize: 0.34,
 		rotationAngle: 45,
 		renderAmplitude: 0.03,
 		currentPreset: 'Fibers',
 		setFibers: () => {
 			const settings = {
-				decayFactor: 0.9,
-				depositAmount: 4,
+				decayFactor: 0.97,
+				depositAmount: 1.09,
 				particleDensity: 0.35,
 				sensorDistance: 18, 
 				sensorAngle: 5.5,
