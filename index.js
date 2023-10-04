@@ -21,7 +21,7 @@ function main({ pane, glslVersion, contextID }) {
 		particleDensity: 0.10,
 		sensorDistance: 18, 
 		sensorAngle: 5.5,
-		stepSize: 1,
+		stepSize: 0.2,
 		rotationAngle: 45,
 		renderAmplitude: 0.03,
 		currentPreset: 'Fibers',
